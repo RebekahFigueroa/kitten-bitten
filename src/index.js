@@ -3,7 +3,6 @@ import { Client } from "discord.js";
 import { Keys } from "./config/index.js";
 
 const keys = await Keys();
-console.log(keys);
 
 const client = new Client();
 
